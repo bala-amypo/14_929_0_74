@@ -1,5 +1,5 @@
 package com.example.demo.repository;
 
-public class RouteOptimizationResultRepository {
+public interface RouteOptimizationResultRepository extends JPARepository<User,Long>{
     
 }
