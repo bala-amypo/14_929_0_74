@@ -1,9 +1,10 @@
 package com.example.demo.service.impl;
 
-/**
- * LocationServiceImpl
- */
-public class LocationServiceImpl {
+import org.springframework.stereotype.Service;
+
+import com.example.demo.service.LocationService;
+@Service
+public class LocationServiceImpl implements LocationService{
 
     
 }
