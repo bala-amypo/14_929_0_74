@@ -1,5 +1,6 @@
 package com.example.demo.repository;
 
-public class UserRepository extends {
+public interface UserRepository {
+
     
-}
+} 
