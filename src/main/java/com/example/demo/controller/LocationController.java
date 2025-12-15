@@ -8,9 +8,9 @@ import com.example.demo.entity.Location;
 
 @RestController
 public class LocationController {
-    
+
     @PostMapping("/locations")
-    public Location addLocation(@RequestBody Location loc ){
+    public Location addLocation(@RequestBody Location loc){
 
     }
   
