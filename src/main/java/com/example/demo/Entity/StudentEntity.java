@@ -10,6 +10,8 @@ public class StudentEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+    
+    private Integer rollno;
     private String name;
     private String email;
     public int getId() {
