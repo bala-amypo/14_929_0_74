@@ -11,11 +11,7 @@ import com.example.demo.Service.StudentService;
 
 @Service
 public class StudentServiceImpl  implements StudentService { 
-//save
-//findById()
-//findAll();
-//existsById()
-//deleteById()
+
 
 @Autowired StudentRepo repo;
 
