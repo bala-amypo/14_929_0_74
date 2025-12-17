@@ -1,17 +1,10 @@
-
-package com.example.demo.Service;
-
+package com.example.demoaiml.service;
+import com.example.demoaiml.entity.Student;
 import java.util.List;
-
-import com.example.demo.Entity.StudentEntity;
-
 public interface StudentService {
-    StudentEntity postdata(StudentEntity stu);
-    List<StudentEntity> getdata();
-    StudentEntity updatedata(int id,StudentEntity std);
-    String deletedata(int id);
-
-
-
-    
-} 
+Student saveStudent(Student student);
+Student getStudentById(Long id);
+List<Student> getAllStudents();
+Student updateStudent(Long id, Student student);
+void deleteStudent(Long id);
+}
