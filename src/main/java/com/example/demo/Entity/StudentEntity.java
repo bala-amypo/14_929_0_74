@@ -10,10 +10,9 @@ public class StudentEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    // @GeneratedValue(strategy = GenerationType.Auto)
-    // private Integer rollno;
+  
     private String name;
-    // @Column(name=unique)
+
     private String email;
     public int getId() {
         return id;
